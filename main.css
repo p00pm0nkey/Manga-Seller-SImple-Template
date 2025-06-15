@@ -1,0 +1,360 @@
+.titlecard {
+    margin-right: -8px;
+    margin-left: -8px;
+    top: -8px;
+    background-color: gray;
+    height: 85px;
+    width: 100%;
+    border-left: solid 8px gray;
+    border-right: solid 8px gray;
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.fa-solid {
+    color: white;
+    scale: 125%;
+    height: 10%;
+}
+
+.fa-user {
+    top: 35px;
+    right: 10%;
+    position: fixed;
+    z-index: 5;
+}
+
+.fa-bars {
+    top: 35px;
+    left: 10%;
+    position: fixed;
+    z-index: 5;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: scaleX(1.5);
+    font-style: italic;
+    margin-top: 28px;
+}
+
+body::-webkit-scrollbar {display: none;}
+
+.menu {
+    width: 20%;
+    height: 150px;
+    position: absolute;
+    top: -100px;
+    position: fixed;
+    z-index: 4;
+}
+
+.login {
+    width: 20%;
+    height: 150px;
+    position: absolute;
+    top: -100px;
+    position: fixed;
+    right: 8px;
+    z-index: 4;
+}
+
+.home {
+    margin-bottom: -2px;
+}
+
+.aboutus {
+    margin-bottom: -2px;
+}
+
+.a {
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Styling */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd;
+}
+
+.socials {
+    display: flex;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* break */
+
+.smallpart {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    background-color: darkslategray;
+    top: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 8px darkslategray;
+    border-right: solid 8px darkslategray;
+    right: -8px;
+    left: -8px;
+    border-bottom: black solid 8px;
+    border-top: black solid 8px;
+    z-index: 3;
+}
+
+.main1 {
+    position: absolute;
+    top: 450px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    border-left: solid 8px darkslategray;
+    right: -8px;
+    left: -8px;
+}
+
+body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel-wrapper {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: black solid 3px;
+}
+
+.title {
+    width: 60%;
+    background-color: lightcoral;
+    position: relative;
+    z-index: 4;
+    margin: 1%;
+}
+
+.title_section {
+    width: 100%;
+    display: flex;
+    height: 600px;
+    background-color: lightblue;
+    align-items: center;
+    margin-bottom: 100px;
+    border-bottom: black solid 3px;
+    border-top: black solid 3px;
+    position: relative;
+}
+
+.title_intro {
+    width: 40%;
+    padding: 18px;
+    position: relative;
+}
+
+.title_intro img {
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+}
+
+.blockjjk {
+    background-color: rgb(255, 196, 0);
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 70%;
+    height: 52%;
+    border: black solid 3px;
+}
+
+.blockcsm {
+    background-color: blue;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    width: 70%;
+    height: 57%;
+    border: black solid 3px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+}
+
+.arrow {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: black;
+}
+
+.first {
+    margin-top: 450px;
+    margin-bottom: 100px;
+    border: white solid 3px;
+}
+
+.thing {
+    width: 205px;
+    height: fit-content;
+    text-align: center;
+}
+
+.title_section .thing {
+    width: 240px;
+}
+
+.thing h3 {
+    text-align: left;
+}
+
+.title_section .thing h3 {
+    text-align: center;
+}
+
+/* newgen shonen csm jjk ds skmt ddd
+shojo
+classic shonen op nrt bl sld
+seinen berk vlsg punpun kingdom vagabond
+... */

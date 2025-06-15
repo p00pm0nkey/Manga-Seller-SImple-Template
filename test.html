@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Carousels</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<!-- Carousel 1: Featured Products -->
+<div class="carousel-wrapper">
+    <h2>Featured Products</h2>
+    <div class="carousel-container">
+        <button class="arrow left-arrow" onclick="prevSection(0)">&#8249;</button>
+        <div class="carousel" id="carousel-0">
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="Featured 1">
+                <h3>Featured Manga 1</h3>
+            </section>
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="Featured 2">
+                <h3>Featured Manga 2</h3>
+            </section>
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="Featured 3">
+                <h3>Featured Manga 3</h3>
+            </section>
+        </div>
+        <button class="arrow right-arrow" onclick="nextSection(0)">&#8250;</button>
+    </div>
+    <div class="dots-container" id="dots-container-0"></div>
+</div>
+
+<!-- Carousel 2: New Arrivals -->
+<div class="carousel-wrapper">
+    <h2>New Arrivals</h2>
+    <div class="carousel-container">
+        <button class="arrow left-arrow" onclick="prevSection(1)">&#8249;</button>
+        <div class="carousel" id="carousel-1">
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="New 1">
+                <h3>New Manga 1</h3>
+            </section>
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="New 2">
+                <h3>New Manga 2</h3>
+            </section>
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="New 3">
+                <h3>New Manga 3</h3>
+            </section>
+        </div>
+        <button class="arrow right-arrow" onclick="nextSection(1)">&#8250;</button>
+    </div>
+    <div class="dots-container" id="dots-container-1"></div>
+</div>
+
+<!-- Carousel 3: Best Sellers -->
+<div class="carousel-wrapper">
+    <h2>Best Sellers</h2>
+    <div class="carousel-container">
+        <button class="arrow left-arrow" onclick="prevSection(2)">&#8249;</button>
+        <div class="carousel" id="carousel-2">
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="Best 1">
+                <h3>Best Seller 1</h3>
+            </section>
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="Best 2">
+                <h3>Best Seller 2</h3>
+            </section>
+            <section class="carousel-item">
+                <img src="csm16.webp" alt="Best 3">
+                <h3>Best Seller 3</h3>
+            </section>
+        </div>
+        <button class="arrow right-arrow" onclick="nextSection(2)">&#8250;</button>
+    </div>
+    <div class="dots-container" id="dots-container-2"></div>
+</div>
+
+<script src="test.js"></script>
+</body>
+</html>

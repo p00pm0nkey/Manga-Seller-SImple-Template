@@ -1,0 +1,278 @@
+/* Your existing CSS styles */
+
+.products-content {
+    padding: 50px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 20px; /* Gap between items */
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+.titlecard {
+    margin-right: -8px;
+    margin-left: -8px;
+    top: -8px;
+    background-color: gray;
+    height: 85px;
+    width: 100%;
+    border-left: solid 8px gray;
+    border-right: solid 8px gray;
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.fa-solid {
+    color: white;
+    scale: 125%;
+    height: 10%;
+}
+
+.fa-user {
+    top: 35px;
+    right: 10%;
+    position: fixed;
+    z-index: 5;
+}
+
+.fa-bars {
+    top: 35px;
+    left: 10%;
+    position: fixed;
+    z-index: 5;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: scaleX(1.5);
+    font-style: italic;
+    margin-top: 28px;
+}
+
+body::-webkit-scrollbar {display: none;}
+
+.menu {
+    width: 20%;
+    height: 150px;
+    position: absolute;
+    top: -100px;
+    position: fixed;
+    z-index: 4;
+}
+
+.login {
+    width: 20%;
+    height: 150px;
+    position: absolute;
+    top: -100px;
+    position: fixed;
+    right: 8px;
+    z-index: 4;
+}
+
+.home {
+    margin-bottom: -2px;
+}
+
+.aboutus {
+    margin-bottom: -2px;
+}
+
+.a {
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Styling */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd;
+}
+
+.socials {
+    display: flex;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* break */
+
+main {
+    position: relative;
+    top: 50px;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+}
+
+.thing {
+    width: 205px;
+    height: fit-content;
+    text-align: center;
+}
+
+.smallpart {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    background-color: darkslategray;
+    top: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 8px darkslategray;
+    border-right: solid 8px darkslategray;
+    right: -8px;
+    left: -8px;
+    border-bottom: black solid 8px;
+    border-top: black solid 8px;
+    z-index: 3;
+}
+
+.main1 {
+    position: absolute;
+    top: 450px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    border-left: solid 8px darkslategray;
+    right: -8px;
+    left: -8px;
+}
+
+body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}

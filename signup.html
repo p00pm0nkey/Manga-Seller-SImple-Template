@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy please</title>
+    <script src="https://kit.fontawesome.com/b25957ae4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="titlecard">
+        <h1 class="name" style="color: white;">MangaSellerThing</h1>
+    </div>
+
+    <i class="fa-solid fa-bars"></i>
+
+    <div class="menu">
+        <a href="home.html" class="a home">Home</a>
+        <a href="aboutus.html" class="a aboutus">About us</a>
+        <a href="products.html" class="a products">Products</a>
+    </div>
+
+    <i class="fa-solid fa-user"></i>
+
+    <h1 style="margin-top: 100px; text-align: center;"><u>Sign up</u></h1>
+
+    <form>
+        <div class="parallel">
+            <h3>Username*:</h3>
+            <input class="long" type="text" id="usernameInput" placeholder="Username" />
+        </div>
+        <div class="parallel">
+            <h3>Password*:</h3>
+            <input class="long" type="password" id="passwordInput" placeholder="Password" />
+        </div>
+        <div class="parallel1">
+            <input type="checkbox" onclick="revealPassword()">
+            <div>Show Password</div>
+        </div>
+        <div class="parallel">
+            <h3>Re-enter Password*:</h3>
+            <input class="long" type="password" id="repasswordInput" placeholder="Re-enter Password" />
+        </div>
+        <h4 id="warning"></h4>
+        <button id="register_local">Register</button>
+        <p>Already have an account? <a href="login.html">Log in.</a></p>
+    </form>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
